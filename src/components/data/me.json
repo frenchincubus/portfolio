@@ -1,0 +1,59 @@
+{
+    "name": "Lionel",
+    "age": 38,
+    "location": "Hauts-de-France",
+    "formation": [
+        {
+            "date": "2016-2017",
+            "school": "CNAM Hauts-de-France",
+            "graduation": "Analyste-Programmeur",
+            "degree": "Bac+2 (niveau 5)"
+        },
+        {
+            "date": "2018-2020",
+            "school": "Aston Institut Lille",
+            "graduation": "Concepteur Développeur Nouvelles Technologies",
+            "degree": "Bac+3/4 (niveau 6)"
+        }
+    ],
+    "experiences" : [
+        {
+            "date": "2018-2020",
+            "society": "Axecibles",
+            "poste": "Développeur Prestashop",
+            "color": "orange",
+            "details": "Développement et personnalisation des projets e-commerce Prestashop"
+        },
+        {
+            "date": "2017",
+            "society": "AZimuth Nord",
+            "poste": "Développeur web",
+            "color": "light-blue",
+            "details": "Développement d'un site Wordpress"
+        }
+    ],
+    "skills": {
+            "languages" : [
+                {"language": "php", "level": 4, "img": "php.svg"},
+                {"language": "javascript", "level": 3, "img": "javascript.svg"},
+                {"language": "SQL", "level": 3, "img": "mysql.svg"},
+                {"language": "Java", "level": 2, "img": "java.svg"},
+                {"language": "lua", "level": 1},
+                {"language": "C#", "level": 2},
+                {"language": "C/C++", "level": 2}
+            ],
+            "tools": [
+                {"tool": "react", "level": 3, "img": "react.svg"},
+                {"tool": "symfony", "level": 3, "img": "symfony.svg"},
+                {"tool": "docker", "level": 2, "img": "docker.svg"},
+                {"tool": "github", "level": 2, "img": "github.svg"},
+                {"tool": "VSC", "level": 3, "img": "visualstudiocode.svg"},
+                {"tool": "angular", "level": 2, "img": "angular.svg"},
+                {"tool": "JEE", "level": 1},
+                {"tool": "linux", "level": 3, "img": "linux.png"},
+                {"tool": "windows", "level": 4, "img": "windows.svg"}
+            ]
+
+        }
+    
+}

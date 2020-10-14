@@ -1,0 +1,10 @@
+.nav {
+    align-content: center;
+   
+}
+
+.nav li {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: none;
+}
