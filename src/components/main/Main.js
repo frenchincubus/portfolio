@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 function Main () {
     const histoire = createBrowserHistory();
-    return  <div className="main">
+    return  <div className="main" style={{width: "100%"}}>
             <Router history={histoire}>
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={AboutMe}/>

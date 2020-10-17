@@ -1,0 +1,30 @@
+[
+    {
+        "project": "portfolio",
+        "techs" : "React, MaterializeCss",
+        "image" : "",
+        "url" : "/",
+        "details": "Projet de présentation de mon profil. Site statique."
+    },
+    {
+        "project": "packup",
+        "techs" : "React, Bootstrap, ReactNative, API Foursquares, API Mapbox, Symfony 5, API Platform, Docker, Jenkins, Sonarqube",
+        "image" : "",
+        "url" : "",
+        "details": "Projet de soutenance de fin de diplome, Il regroupe l'ensemble des compétences apprises au cours de la formation."
+    },
+    {
+        "project": "Country Registrator",
+        "techs" : "Symfony 3.4, Bootstrap, IP-API",
+        "image" : "countryregistrator.png",
+        "url" : "https://damp-inlet-38071.herokuapp.com/",
+        "details": "Projet test pour un précédent recrutement"
+    },
+    {
+        "project": "Site web Wordpress",
+        "techs" : "WordPress",
+        "image" : "",
+        "url" : "",
+        "details": "Projet de stage pour la validation du diplome du CNAM, réalisé au sein d'AZimuth Nord"
+    }
+]
