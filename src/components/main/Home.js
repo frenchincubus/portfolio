@@ -16,7 +16,7 @@ export default function Content() {
               </div>
             </Col>
             <Col s={12} m={6} l={8}>
-              <div>
+              <div style={{ fontSize: "1.3em"}}>
               <p>Bienvenue sur mon Portfolio !</p>
               <p>Je me prénomme Lionel, je suis en reconversion professionnelle, et je viens de terminer une formation de concepteur-développeur</p>
               <p>Mon parcours ? Quelques temps en intérim, puis quelques années en tant que technicien d'exploitation, et aussi musicien. </p>

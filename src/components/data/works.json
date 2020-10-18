@@ -1,30 +1,38 @@
 [
     {
         "project": "portfolio",
+        "year": "2020",
         "techs" : "React, MaterializeCss",
-        "image" : "",
+        "image" : "portfolio.png",
         "url" : "/",
-        "details": "Projet de présentation de mon profil. Site statique."
+        "github": "https://github.com/frenchincubus/portfolio",
+        "details": "Projet de présentation de mon profil."
     },
     {
         "project": "packup",
+        "year": "2019-2020",
         "techs" : "React, Bootstrap, ReactNative, API Foursquares, API Mapbox, Symfony 5, API Platform, Docker, Jenkins, Sonarqube",
-        "image" : "",
+        "image" : "packup.png",
         "url" : "",
-        "details": "Projet de soutenance de fin de diplome, Il regroupe l'ensemble des compétences apprises au cours de la formation."
+        "github": "",
+        "details": "Projet de soutenance de fin de diplome, Réaslisé par une équipe de 4 personnes, il regroupe l'ensemble des compétences apprises au cours de la formation, en entreprise, ou personnellement."
     },
     {
         "project": "Country Registrator",
+        "year": "2018",
         "techs" : "Symfony 3.4, Bootstrap, IP-API",
         "image" : "countryregistrator.png",
         "url" : "https://damp-inlet-38071.herokuapp.com/",
-        "details": "Projet test pour un précédent recrutement"
+        "github": "https://github.com/frenchincubus/Symfony-3.4-App-Country-registrator",
+        "details": "Projet test pour un précédent recrutement. Le concept était de créer une application qui enregistre automatiquement le pays de résidence de l'utilisateur à l'enregistrement, et pouvoir manager les entrée via un panneau d'administration"
     },
     {
-        "project": "Site web Wordpress",
+        "project": "Eveil et Conscience",
+        "year": "2017",
         "techs" : "WordPress",
-        "image" : "",
+        "image" : "site_wordpress.png",
         "url" : "",
-        "details": "Projet de stage pour la validation du diplome du CNAM, réalisé au sein d'AZimuth Nord"
+        "github": "",
+        "details": "Projet de stage pour la validation du diplome du CNAM, réalisé au sein d'AZimuth Nord. Site vitrine pour un client dans le cadre d'une demande spécifique."
     }
 ]

@@ -9,7 +9,7 @@ export default function App() {
     return (
         <>
             <header><Menu /></header>
-            <main className="valign-wrapper"><Main /></main>
+            <main className="valign-wrapper" style={{backgroundColor: "lightgray"}}><Main /></main>
             <footer style={{ bottom: "0px"}}><PortolioFooter /></footer>
             <CookieConsent
                 buttonText="Ok !!"

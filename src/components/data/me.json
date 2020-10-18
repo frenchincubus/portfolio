@@ -22,14 +22,14 @@
             "society": "Axecibles",
             "poste": "Développeur Prestashop",
             "color": "orange",
-            "details": "Développement et personnalisation des projets e-commerce Prestashop"
+            "details": "<p>Développement et personnalisation des projets e-commerce Prestashop</p><span><ul><li>Prestashop v. 1.4 à 1.6</li><li>Etude de faisabilité</li><li>Développement/modifications des fonctionnalités</li><li>Correctifs et débuggage</li><li>Recettage</li><li>Utilisation API (trasnporteur UPS/Marketplace Etsy</li></ul></span><p>Participation aux projets internes sous Symfony 4 et React</p>"
         },
         {
             "date": "2017",
             "society": "AZimuth Nord",
             "poste": "Développeur web",
             "color": "light-blue",
-            "details": "Développement d'un site Wordpress"
+            "details": "<p>Développement d'un site web client sous Wordpress et déploiement/maintenance sur serveur Linux</p><p>Recueil du besoin client</p><p>Maquettage</p><p>Création d'un template Wordpress</p><p>Configuration vhost</p>"
         }
     ],
     "skills": {

@@ -2,15 +2,6 @@ import React from 'react';
 import 'materialize-css';
 import { Navbar, NavItem, Icon } from 'react-materialize';
 
-const bodyStyle = {
-    backgroundColor: "black"
-};
-
-function darkMode() {
-    let bodyTag = document.getElementsByTagName("body");
-    bodyTag.className = bodyStyle;
-}
-
 const Menu = () => {
     return (
         <Navbar
@@ -33,9 +24,7 @@ const Menu = () => {
             <NavItem className="waves-effect waves-light" href="/">Home</NavItem>
             <NavItem className="waves-effect waves-light" href="about">C.V</NavItem>
             <NavItem className="waves-effect waves-light" href="works">Portfolio</NavItem>
-            <NavItem className="waves-effect waves-light" href="contact">Contact</NavItem>
-            {/* <Button onClick={darkMode()}>Dark Mode</Button> */}
-            
+            <NavItem className="waves-effect waves-light" href="contact">Contact</NavItem>            
         </Navbar>
     );
 }

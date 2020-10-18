@@ -1,6 +1,47 @@
 import React from "react";
 import { Button, Modal } from "react-materialize";
+import ReactHtmlParser from "react-html-parser";
 import data from "../data/me.json";
+
+/**
+ *  me.json format
+ * 
+ * "name": "example",
+    "age": 88,
+    "location": "Nowhere",
+    "formation": [
+        {
+            "date": "some date",
+            "school": "school",
+            "graduation": "diplome name",
+            "degree": "bac+X bachelor or whatever"
+        },
+        ...
+    ],
+    "experiences" : [
+        {
+            "date": "some date",
+            "society": "society name",
+            "poste": "job",
+            "color": "orange",
+            "details": "job tasks - you can use html tag"
+        },
+        ...
+    ],
+    "skills": {
+            "languages" : [
+                {"language": "php", "level": 4, "img": "php.svg"},
+                ...
+            ],
+            "tools": [
+                {"tool": "react", "level": 3, "img": "react.svg"},
+                ...
+            ]
+
+        }
+    
+}
+ */
 
 const imgStyles = {
     height : "100px",
@@ -70,9 +111,9 @@ export const Experience = () => (
                       style={{ float: "right", backgroundColor: "#039be5 "}}
                       >détails</Button>}
                 >
-                <p>
-                    {element.details}
-                </p>
+                <div>
+                    {ReactHtmlParser(element.details)}
+                </div>
                 </Modal>
        </div>     
      ))
