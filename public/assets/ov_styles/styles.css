@@ -10,9 +10,23 @@
 
 .page-footer {
 background-color: #47191b;
+padding-top: 0;
+}
+
+.page-footer > div > .row {
+  margin-bottom: 0;
+}
+
+.footer-copyright > div {
+  padding-left: 8px;
 }
 
 nav {
 background-color: #47191b;
 }
 
+@media screen and (min-width: 993px){
+  .brand-logo {
+    margin-left: 10px;
+  }
+}

@@ -4,13 +4,13 @@ import { Formation, Experience, Competences, CompetencesTools } from '../misc/Sk
 
 const AboutMe = () => {
     return (
-        <div className="container" style={{ width: "100%"}}>          
+        <div id="about" className="container" style={{ width: "100%"}}>          
             <Row>
-                <Col s={12} m={4} l={4}><h4>Formation</h4></Col><Col s={8} m={8} l={8} offset="s2"><Formation/></Col><Col m={12}><Divider/></Col>
+                <Col s={12} m={4} l={4}><h4>Expériences</h4></Col><Col s={8} m={8} l={8} offset="s2"><Experience/></Col><Col m={12}><Divider/></Col>
             </Row>
             <br/><br/>
             <Row>
-            <Col s={12} m={4} l={4}><h4>Expériences</h4></Col><Col s={8} m={8} l={8} offset="s2"><Experience/><Divider/></Col>
+            <Col s={12} m={4} l={4}><h4>Formation</h4></Col><Col s={8} m={8} l={8} offset="s2"><Formation/><Divider/></Col>
             </Row>
             <br/><br/>
             <Row>

@@ -5,7 +5,8 @@ export default function Content() {
 
     return (    
     <div className="container">
-      <Row>
+      <Row >
+        <div className={ window.innerWidth > 630 ? "valign-wrapper" : ""} style={{ height: (window.innerHeight - 200) }}>
             <Col s={12} m={6} l={4}>
               <div className="center">
                 <div><img src="assets/images/téléchargement.jpg" alt="paul presboit" style={{ display: 'inline-flex', margin: "20px"}} /></div>
@@ -24,6 +25,7 @@ export default function Content() {
               <p>Bonne visite !!</p>
               </div>
             </Col>
+        </div>
       </Row>
      
     </div>

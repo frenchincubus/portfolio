@@ -2,8 +2,9 @@ import React from 'react';
 import { Row, Col } from 'react-materialize';
 
 const Contact = () => (
-    <div>
+    <div id="contact">
         <Row>
+          <div className={ window.innerWidth > 630 ? "valign-wrapper" : ""} style={{ height: (window.innerHeight - 200) }}>
             <Col s={12} m={6} l={4} offset="l2">
               <div className="center">
                 <div><img src="assets/images/téléchargement.jpg" alt="paul presboit" style={{ display: 'inline-flex', margin: "20px"}} /></div>
@@ -21,6 +22,7 @@ const Contact = () => (
               </div>
               </div>
             </Col>
+          </div>
          </Row>
     </div>
 );

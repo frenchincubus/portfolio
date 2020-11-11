@@ -4,17 +4,36 @@
     "location": "Hauts-de-France",
     "formation": [
         {
-            "date": "2016-2017",
-            "school": "CNAM Hauts-de-France",
-            "graduation": "Analyste-Programmeur",
-            "degree": "Bac+2 (niveau 5)"
-        },
-        {
             "date": "2018-2020",
             "school": "Aston Institut Lille",
             "graduation": "Concepteur Développeur Nouvelles Technologies",
-            "degree": "Bac+3/4 (niveau 6)"
+            "degree": "Bac+3/4 (titre RNCP niveau 6)"
+        },
+        {
+            "date": "2016-2017",
+            "school": "CNAM Hauts-de-France",
+            "graduation": "Analyste-Programmeur",
+            "degree": "Bac+2 (titre RNCP niveau 5)"
+        },
+        {
+            "date": "2009-2011",
+            "school": "CMA - Centre des Musiques Actuelles de Valenciennes",
+            "graduation": "Musicien interprète de musiques actuelles",
+            "degree": "Bac (niveau 4)"
+        },
+        {
+            "date": "2001-2003",
+            "school": "Lycée Jan Lavezzari Berck/Mer",
+            "graduation": "BTS Comptabilité et Gestion des Organisations",
+            "degree": "Bac+2 (niveau 5)"
+        },
+        {
+            "date": "2001",
+            "school": "Lycée Eugène Woillez Montreuil/Mer",
+            "graduation": "Bac S spécialité SVT",
+            "degree": "Bac (niveau 4)"
         }
+        
     ],
     "experiences" : [
         {
@@ -30,6 +49,27 @@
             "poste": "Développeur web",
             "color": "light-blue",
             "details": "<p>Développement d'un site web client sous Wordpress et déploiement/maintenance sur serveur Linux</p><p>Recueil du besoin client</p><p>Maquettage</p><p>Création d'un template Wordpress</p><p>Configuration vhost</p>"
+        },
+        {
+            "date": "2012-2014",
+            "society": "Auto-entrepreneur",
+            "poste": "Professeur de musique",
+            "color": "light-blue",
+            "details": "<p>Cours de guitare et basse pour débutant</p><p>Cours de solfège</p>"
+        },
+        {
+            "date": "2006-2010",
+            "society": "SAS Hélice",
+            "poste": "Technicien d'exploitation",
+            "color": "light-blue",
+            "details": "<p><strong>Mission Pole Emploi</strong></p><p>Mise sous pli des courriers à destination des demandeurs d'emploi et des employeurs</p><p>Contrôle qualité</p><p>Maintenance matérielle niveau 1</p>"
+        },
+        {
+            "date": "2003-2006",
+            "society": "Intérim",
+            "poste": "Intérimaire",
+            "color": "light-blue",
+            "details": "<p>J'ai effectué diverses missions d'intérim:</p><ul><li>cartonneur - Arc International</li><li>divers inventaires</li><li>employé polyvalent - SA Macquet</li></ul>"
         }
     ],
     "skills": {
