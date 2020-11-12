@@ -1,6 +1,8 @@
 import React from 'react';
+import ReactHtmlParser from 'react-html-parser';
 import data from "../data/works.json";
 import { Row, Col, MediaBox } from "react-materialize";
+import { styles } from '../styles/styles';
 
 /**
  * works.json format
@@ -39,7 +41,7 @@ const travaux = () => (
                         <img 
                             src={"assets/images/"+data.image} 
                             alt={data.project} 
-                            style={{ display: "flex", height: "160px", border: "1px solid black"}} 
+                            style={{ display: "flex", maxWidth: "100%", maxHeight: "200px", border: "1px solid black"}} 
                         />                       
                     </MediaBox>
                 </div>
@@ -47,7 +49,7 @@ const travaux = () => (
             </Col>
             <Col s={9} m={12} l={4} xl={6}>
               <div>
-                <span style={{ display: "inline"}}><h5 style={{ display: "inline-block"}}><b>{data.project}</b></h5> - {data.year}</span>
+                <span style={{ display: "inline"}}><h5 style={{ display: "inline-block"}}><b>{data.project}</b></h5> - {data.year} {data.progression ?  ReactHtmlParser('- <b style="background-color:red;"> en développement </b>') : '' }</span>
                 <p><span><b>Technos: </b></span>{data.techs}</p>
                 <p><span><b>Détails: </b></span>{data.details}</p>
                 <p><span><b>Url: </b></span>{ data.url !== "" ? <a href={data.url} alt={data.project} target="_blank" rel="noopener noreferrer">{data.project}</a> : ""}</p>
@@ -61,10 +63,13 @@ const travaux = () => (
 
 export default function Works() {
     return (
-        <div id="works" className="container" style={{ paddingTop: "10px"}}>
-            <Row>
-                {travaux()}
-            </Row>
-        </div>
+        <>
+            <div id="works" width="100%" className="right-align" style={{ backgroundColor: '#47191B', padding: '5px 10px 0 0' }}><h2 className="white-text">Portfolio</h2></div> 
+            <div className="container" style={{ paddingTop: "10px"}}>
+                <Row style={styles}>
+                    {travaux()}
+                </Row>
+            </div>
+        </>
     );
 }

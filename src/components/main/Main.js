@@ -8,24 +8,23 @@ import Contact from './Contact';
 import LandingContext from '../context/LandingContext';
 import { Button, Icon } from 'react-materialize';
 
-function Main () {
+const Main = () => {
     const histoire = createBrowserHistory();
 
     const contextValue = useContext(LandingContext);
 
     if (contextValue.landing){
         return <div id="top" className="main" style={{width: "100%"}}>
-            <Home />
+            <Home/>
             <AboutMe />
             <Works />
             <Contact />
             <Button
                 className="red"
                 floating
-                icon={<Icon>add</Icon>}
+                icon={<Icon>arrow_circle_up</Icon>}
                 large
                 node="button"
-                waves="light"
                 fab={{direction: 'right'}}
                 onClick={() => window.scrollTo(0,0)}
                 />

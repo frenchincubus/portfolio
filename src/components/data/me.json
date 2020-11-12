@@ -39,30 +39,30 @@
         {
             "date": "2018-2020",
             "society": "Axecibles",
-            "poste": "Développeur Prestashop",
+            "poste": "Développeur Web PHP/JS",
             "color": "orange",
-            "details": "<p>Développement et personnalisation des projets e-commerce Prestashop</p><span><ul><li>Prestashop v. 1.4 à 1.6</li><li>Etude de faisabilité</li><li>Développement/modifications des fonctionnalités</li><li>Correctifs et débuggage</li><li>Recettage</li><li>Utilisation API (trasnporteur UPS/Marketplace Etsy</li></ul></span><p>Participation aux projets internes sous Symfony 4 et React</p>"
+            "details": "<h6><u>Développement et personnalisation des projets e-commerce Prestashop</u></h6><span><p>Développer sous les versions Prestashop v. 1.4 à 1.6: </p><ul><li>Rédiger les études de faisabilité</li><li>Développer/modifier des fonctionnalités</li><li>Développer les Correctifs et débugguer</li><li>Effecuter le Recettage</li><li>Communiquer avec une API (transporteur UPS/Marketplace Etsy</li></ul></span><br><h6><u>Développement et personnalisation des sites vitrines</u></h6><p>Développer et modifier les sites vitrines clients, sous le CMS maison d'Axecibles (php objet et jQuery)</p><br><h6><u>Projets Internes</u></h6><p>Participation au projet interne \"Showroom\" sous Symfony 4.4 et React : Développement côté React du moteur de recherche/système de tri</p>"
         },
         {
             "date": "2017",
             "society": "AZimuth Nord",
             "poste": "Développeur web",
             "color": "light-blue",
-            "details": "<p>Développement d'un site web client sous Wordpress et déploiement/maintenance sur serveur Linux</p><p>Recueil du besoin client</p><p>Maquettage</p><p>Création d'un template Wordpress</p><p>Configuration vhost</p>"
+            "details": "<h6><u>Développement d'un site web client sous Wordpress</u></h6><p>Recueillir les besoins client</p><p>Créer la maquette du site</p><p>Intégrer la maquette dans un template Wordpress</p><p>Configurer le virtual host</p><p>Déployer le site sur un serveur Apache, tournant sous un système Linux</p>"
         },
         {
             "date": "2012-2014",
             "society": "Auto-entrepreneur",
             "poste": "Professeur de musique",
             "color": "light-blue",
-            "details": "<p>Cours de guitare et basse pour débutant</p><p>Cours de solfège</p>"
+            "details": "<p>Donner des cours de guitare et basse, pour débutants à domicile ou chez l'élève</p><p>Donner des cours de solfège</p>"
         },
         {
             "date": "2006-2010",
             "society": "SAS Hélice",
-            "poste": "Technicien d'exploitation",
+            "poste": "Prestataire technique",
             "color": "light-blue",
-            "details": "<p><strong>Mission Pole Emploi</strong></p><p>Mise sous pli des courriers à destination des demandeurs d'emploi et des employeurs</p><p>Contrôle qualité</p><p>Maintenance matérielle niveau 1</p>"
+            "details": "<h6><u>Technicien d'exploitation à l'Unédic/Pole Emploi</u></h6><p>Dans le cadre de cette mission :</p><p> Mettre sous pli des courriers à destination des demandeurs d'emploi et des employeurs</p><p>Contrôler la qualité et Effectuer la maintenance matérielle niveau 1</p><p>sur les machines de mise sous pli Pitney Bowes APS 18/20, et Postar</p><p>Imprimer les courriers sur imprimante à impact, Trier des retours courrier, réceptionner/expédier des chariots de la Poste</p><h6><u>Mission chez Canon France</u></h6><p>Remplacement de 2 semaines au service informatique</p><p>Surveiller l'état des services informatiques internes de l'entreprise sous système AS/400</p><p>Sauvegarder les données journalières sur cartouche 8pistes et mettre en veille le système en fin de journée</p>"
         },
         {
             "date": "2003-2006",

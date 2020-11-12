@@ -1,3 +1,26 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+}
+
+div {
+  font-family: 'Oswald', 'sans-serif';
+}
+
+p {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+a {
+  font-family: 'Open Sans', 'sans-serif';
+  color: maroon;
+}
+
+h1 + h4 + .brand-logo {
+  font-family: 'Oswald', sans-serif;
+}
+
+
 #root {
     display: flex;
     min-height: 100vh;
@@ -19,6 +42,11 @@ padding-top: 0;
 
 .footer-copyright > div {
   padding-left: 8px;
+}
+
+.page-footer a {
+  font-family: 'Open Sans', 'sans-serif';
+  color: cadetblue;
 }
 
 nav {

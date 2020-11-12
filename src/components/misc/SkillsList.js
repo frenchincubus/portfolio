@@ -108,7 +108,7 @@ export const Experience = () => (
                      node="button"
                       className="btn pulse"
                       tooltip="En savoir plus"
-                      style={{ float: "right", backgroundColor: "#039be5 "}}
+                      style={{ float: "right", backgroundColor: "#039be5 ", right: '2%', marginTop: '2%'}}
                       >détails</Button>}
                 >
                 <div>
@@ -121,7 +121,7 @@ export const Experience = () => (
 
 export const Competences = () => (
     <div  className="row" style={{ borderBottom: "1px solid black"}}>
-       <div className="col s12 m8 l8">           
+       <div className="col s12 m8 l8 center-align">           
               {(data.skills.languages).map( (lang, index) => (
                   lang.img && lang.level >= 3 ? <span key={index}><img src={"assets/icons/"+lang.img} style={imgStyles} alt={lang.language} /></span> : "" 
               ))}           

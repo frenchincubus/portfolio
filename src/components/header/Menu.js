@@ -1,15 +1,15 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext } from 'react';
 import 'materialize-css';
 import { Navbar, NavItem, Icon, Switch } from 'react-materialize';
 import LandingContext from '../context/LandingContext';
 
 const Menu = () => {
 
-    const contextValue = useContext(LandingContext);
+    const { landing, updateLanding } = useContext(LandingContext);
     // let landing = true;
 
     const handleLanding = () => {
-        contextValue.updateLanding(!contextValue.landing);
+        updateLanding(!landing);
     };
     return (
         <Navbar
@@ -29,10 +29,10 @@ const Menu = () => {
                 preventScrolling: true
             }}
             >
-            <NavItem className="waves-effect waves-light" href={ contextValue.landing ?"#top" : "/"}>Home</NavItem>
-            <NavItem className="waves-effect waves-light" href={ contextValue.landing ?"#about" : "about"}>C.V</NavItem>
-            <NavItem className="waves-effect waves-light" href={contextValue.landing ? "#works" : "works"}>Portfolio</NavItem>
-            <NavItem className="waves-effect waves-light" href={contextValue.landing ? "#contact" :"contact"}>Contact</NavItem>
+            <NavItem className="waves-effect waves-light sidenav-close" href={landing ?"#top" : "/"}>Home</NavItem>
+            <NavItem className="waves-effect waves-light sidenav-close" href={landing ?"#about" : "about"}>C.V</NavItem>
+            <NavItem className="waves-effect waves-light sidenav-close" href={landing ? "#works" : "works"}>Portfolio</NavItem>
+            <NavItem className="waves-effect waves-light sidenav-close" href={landing ? "#contact" :"contact"}>Contact</NavItem>
             {/* <NavItem >Landing mode:</NavItem> */}
             <NavItem>
                 <Switch
@@ -40,6 +40,7 @@ const Menu = () => {
                     offLabel=" Landing mode: Off"
                     onChange={handleLanding}
                     onLabel="On"
+                    checked={landing}
                 />
             </NavItem>            
         </Navbar>
