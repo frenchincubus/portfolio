@@ -22,7 +22,7 @@ h1 + h4 + .brand-logo {
 
 #root {
   display: flex;
-  min-height:100vh;
+  min-height: 100vh;
   flex-direction: column;
 }
 
