@@ -1,12 +1,12 @@
-import React, { useContext } from 'react';
-import { Router, Route } from 'react-router';
-import AboutMe from './AboutMe';
+import React, { useContext } from "react";
+import { Router, Route } from "react-router";
+import AboutMe from "./AboutMe";
 import { createBrowserHistory } from "history";
-import Works from './works';
-import Home from './Home';
-import Contact from './Contact';
-import LandingContext from '../context/LandingContext';
-import { Button, Icon } from 'react-materialize';
+import Works from "./works";
+import Home from "./Home";
+import Contact from "./Contact";
+import LandingContext from "../context/LandingContext";
+import { Button, Icon } from "react-materialize";
 
 const Main = () => {
     const histoire = createBrowserHistory();
@@ -25,7 +25,7 @@ const Main = () => {
                 icon={<Icon>arrow_circle_up</Icon>}
                 large
                 node="button"
-                fab={{direction: 'right'}}
+                fab={{direction: "right"}}
                 onClick={() => window.scrollTo(0,0)}
                 />
         </div>;

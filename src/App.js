@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import LandingContext from './components/context/LandingContext';
-import Main from './components/main/Main';
-import Menu from './components/header/Menu';
-import PortolioFooter from './components/footer/Footer';
-import CookieConsent from 'react-cookie-consent';
+import React, { useState } from "react";
+import LandingContext from "./components/context/LandingContext";
+import Main from "./components/main/Main";
+import Menu from "./components/header/Menu";
+import PortolioFooter from "./components/footer/Footer";
+import CookieConsent from "react-cookie-consent";
 
 export default function App() {
     const [landing, setLanding] = useState(true);

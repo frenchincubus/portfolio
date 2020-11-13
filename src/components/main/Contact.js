@@ -1,16 +1,16 @@
-import React from 'react';
-import { Row, Col } from 'react-materialize';
-import { styles } from '../styles/styles';
+import React from "react";
+import { Row, Col } from "react-materialize";
+import { styles } from "../styles/styles";
 
 const Contact = () => (
     <>
-      <div id="contact" width="100%" className="right-align" style={{ backgroundColor: '#47191B', padding: '5px 10px 0 0' }}><h2 className="white-text">Contact</h2></div> 
+      <div id="contact" width="100%" className="right-align" style={{ backgroundColor: "#47191B", padding: "5px 10px 0 0" }}><h2 className="white-text">Contact</h2></div> 
       <div className="container">
           <Row style={styles}>
             <div className={ window.innerWidth > 630 ? "valign-wrapper" : ""} style={{ height: (window.innerHeight - 200) }}>
               <Col s={12} m={6} l={4} offset="l2">
                 <div className="center">
-                  <div><img src="assets/images/myself.jpg" alt="paul presboit" style={{ display: 'inline-flex', maxWidth: '260px'}} /></div>
+                  <div><img src="assets/images/myself.jpg" alt="paul presboit" style={{ display: "inline-flex", maxWidth: "260px"}} /></div>
                 </div>
                 
               </Col>

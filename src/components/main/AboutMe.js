@@ -1,12 +1,12 @@
 import React from "react";
 import { Divider, Row, Col } from "react-materialize";
-import { Formation, Experience, Competences, CompetencesTools, Divers } from '../misc/SkillsList';
-import { styles } from '../styles/styles';
+import { Formation, Experience, Competences, CompetencesTools, Divers } from "../misc/SkillsList";
+import { styles } from "../styles/styles";
 
 const AboutMe = () => {
     return (
         <>
-            <div id="about" width="100%" className="right-align" style={{ backgroundColor: '#47191B', padding: '5px 10px 0 0' }}><h2 className="white-text">Curriculum Vitae</h2></div> 
+            <div id="about" width="100%" className="right-align" style={{ backgroundColor: "#47191B", padding: "5px 10px 0 0" }}><h2 className="white-text">Curriculum Vitae</h2></div> 
             <div className="container">  
 
                 <Row style={styles}>
@@ -33,6 +33,6 @@ const AboutMe = () => {
             </div>
         </>
     );
-}
+};
 
 export default AboutMe;

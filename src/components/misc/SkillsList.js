@@ -67,7 +67,7 @@ export const Formation = () => {
        </div>     
      ));
          return cards;
-     }
+};
 
 export const Experience = () => (
     (data.experiences).map((element, index) => (
@@ -93,7 +93,7 @@ export const Experience = () => (
                 open={false}
                 options={{
                     dismissible: true,
-                    endingTop: '10%',
+                    endingTop: "10%",
                     inDuration: 250,
                     onCloseEnd: null,
                     onCloseStart: null,
@@ -102,13 +102,13 @@ export const Experience = () => (
                     opacity: 0.5,
                     outDuration: 250,
                     preventScrolling: true,
-                    startingTop: '4%'
+                    startingTop: "4%"
                 }}
                 trigger={<Button
                      node="button"
                       className="btn pulse"
                       tooltip="En savoir plus"
-                      style={{ float: "right", backgroundColor: "#039be5 ", right: '2%', marginTop: '2%'}}
+                      style={{ float: "right", backgroundColor: "#039be5 ", right: "2%", marginTop: "2%"}}
                       >détails</Button>}
                 >
                 <div>
@@ -132,7 +132,7 @@ export const Competences = () => (
 export const CompetencesOthers = () => (
     <div style={{ float: "inherit", borderBottom: "1px solid black"}}>
     {(data.skills.languages).map( (lang, index) => (
-        lang.level < 3 ? <span key={index} style={{ margin: "1%", fontWeight: 'bold'}}>{lang.language}</span> : "" 
+        lang.level < 3 ? <span key={index} style={{ margin: "1%", fontWeight: "bold"}}>{lang.language}</span> : "" 
     ))}
     </div>
 );
@@ -148,7 +148,7 @@ export const CompetencesTools = () => (
 export const Divers = () => (
      <div style={pStyle}>
     {(data.divers).map( (hobby, index) => (
-        <p key={index} ><u>{hobby.type}</u>: {Array.isArray(hobby.value) ? hobby.value.join(', ') : typeof hobby.value === "boolean" ? "permis B + véhicule" : "non"}</p>
+        <p key={index} ><u>{hobby.type}</u>: {Array.isArray(hobby.value) ? hobby.value.join(", ") : typeof hobby.value === "boolean" ? "permis B + véhicule" : "non"}</p>
     ))}
 </div>
 );
