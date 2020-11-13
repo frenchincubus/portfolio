@@ -10,7 +10,7 @@ export default function Home() {
         <div className={ window.innerWidth > 630 ? "valign-wrapper" : ""} style={{ height: (window.innerHeight - 300), top: '200px' }}>
             <Col s={12} m={6} l={4}>
               <div className="center">
-                <div><img src="assets/images/téléchargement.jpg" alt="paul presboit" style={{ display: 'inline-flex', margin: "20px"}} /></div>
+                <div><img src="assets/images/myself.jpg" alt="paul presboit" style={{ display: 'inline-flex', maxWidth: '260px'}} /></div>
               </div>
               <div className="center">
                 <a href="https://www.linkedin.com/in/lionel-renier-pro/" target="_blank" rel="noopener noreferrer"><img src="assets/icons/linkedin.svg" alt="linkedin_logo"  height="50px" style={{ marginRight: '5%'}} /></a>
@@ -18,11 +18,11 @@ export default function Home() {
               </div>
             </Col>
             <Col s={12} m={6} l={8}>
-              <div style={{ fontSize: "1.3em"}}>
+              <div style={{ fontSize: "1.3em", textAlign: 'justify'}}>
               <p>Bienvenue sur mon Portfolio !</p>
-              <p>Je me prénomme Lionel, en reconversion professionnelle, et je viens de terminer une formation de concepteur-développeur</p>
-              <p>Ce portfolio a pour fonction de vous présenter mon parcours et mes compétences</p>
-              <p>J'ai toujours eu un attrait particulier pour les ordinateurs. Ayant développé mes 1ers sites web durant mes années lycée (merci Dreamweaver), mon parcours professionnel varié a toujours été, par la suite, en contact de près ou de loin avec l'informatique</p>
+              <p>Je me prénomme Lionel, en reconversion professionnelle, et je viens de terminer une formation de <u>concepteur-développeur d'applications</u>.</p>
+              <p>Ce portfolio a pour fonction de vous présenter mon parcours et mes compétences.</p>
+              <p>J'ai toujours eu un attrait particulier pour les ordinateurs. Ayant développé mes premiers sites web durant mes années lycée (merci Dreamweaver), mon parcours professionnel varié a toujours été, par la suite, en contact de près ou de loin avec l'informatique.</p>
               <p>Bonne visite !!</p>
               </div>
             </Col>

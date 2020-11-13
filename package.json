@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
-  "homepage": "http://lionelrenierportfolio.fr/",
+  "homepage": "https://www.lionelrenierportfolio.fr/",
   "scripts": {
     "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1",

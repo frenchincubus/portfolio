@@ -144,3 +144,11 @@ export const CompetencesTools = () => (
         ))}
         </div>
 );
+
+export const Divers = () => (
+     <div style={pStyle}>
+    {(data.divers).map( (hobby, index) => (
+        <p key={index} ><u>{hobby.type}</u>: {Array.isArray(hobby.value) ? hobby.value.join(', ') : typeof hobby.value === "boolean" ? "permis B + véhicule" : "non"}</p>
+    ))}
+</div>
+);

@@ -1,6 +1,6 @@
 import React from "react";
 import { Divider, Row, Col } from "react-materialize";
-import { Formation, Experience, Competences, CompetencesTools } from '../misc/SkillsList';
+import { Formation, Experience, Competences, CompetencesTools, Divers } from '../misc/SkillsList';
 import { styles } from '../styles/styles';
 
 const AboutMe = () => {
@@ -25,6 +25,10 @@ const AboutMe = () => {
                 <Row style={styles}>
                     <Col s={12} m={4} l={4}><h4>Outils</h4></Col>
                     <Col s={12} m={8} l={8} offset="m4" className="center-align"><CompetencesTools/></Col>
+                </Row>
+                <Row style={styles}>
+                    <Col s={12} m={4} l={4}><h4>Autres</h4></Col>
+                    <Col s={12} m={8} l={8} offset="m4" className="left -align"><Divers/></Col>
                 </Row>
             </div>
         </>

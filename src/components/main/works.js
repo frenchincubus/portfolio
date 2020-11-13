@@ -47,11 +47,11 @@ const travaux = () => (
                 </div>
               </div>              
             </Col>
-            <Col s={9} m={12} l={4} xl={6}>
+            <Col s={12} m={12} l={4} xl={6}>
               <div>
                 <span style={{ display: "inline"}}><h5 style={{ display: "inline-block"}}><b>{data.project}</b></h5> - {data.year} {data.progression ?  ReactHtmlParser('- <b style="background-color:red;"> en développement </b>') : '' }</span>
-                <p><span><b>Technos: </b></span>{data.techs}</p>
-                <p><span><b>Détails: </b></span>{data.details}</p>
+                <p style={{ textAlign: 'justify'}}><span><b>Technos: </b></span>{data.techs}</p>
+                <p style={{ textAlign: 'justify'}}><span><b>Détails: </b></span>{data.details}</p>
                 <p><span><b>Url: </b></span>{ data.url !== "" ? <a href={data.url} alt={data.project} target="_blank" rel="noopener noreferrer">{data.project}</a> : ""}</p>
                 <p><span><b>Github: </b></span>{ data.github  !== "" ? <a href={data.github} alt={data.project} target="_blank" rel="noopener noreferrer">{data.project}</a> : ""}</p>
               </div>
