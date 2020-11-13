@@ -4,7 +4,7 @@
         "year": "2020",
         "techs" : "Symfony 5, Bootstrap 4, mySql, javascript/jQuery",
         "progression": true,
-        "image" : "",
+        "image" : "ecommerce.png",
         "url" : "",
         "github": "",
         "details": "Projet perso en cours de développement, un site e-commerce sous Symfony, qui dispose d'un catalogue produit, panier, d'un moteur de recherche, d'un TdB Client et d'un TdB Admin"

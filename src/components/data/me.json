@@ -69,7 +69,7 @@
             "society": "Intérim",
             "poste": "Intérimaire",
             "color": "light-blue",
-            "details": "<p>J'ai effectué diverses missions d'intérim:</p><ul><p>cartonneur - Arc International</p><p>divers inventaires</p><p>employé polyvalent - SA Macquet</p></ul>"
+            "details": "<p>J'ai effectué diverses missions d'intérim:</p><ul><p>Cartonneur - Arc International</p><p>Divers inventaires</p><p>Employé polyvalent - SA Macquet</p></ul>"
         }
     ],
     "skills": {
@@ -96,10 +96,10 @@
 
         },
     "divers": [
-            {"type": "permis", "value" : true},
-            {"type": "cinéma", "value": ["horreur", "comédie US", "documentaire", "animé japonais"]},
-            {"type": "jeux vidéos", "value": ["rpg", "action/aventure"]},
-            {"type": "lecture", "value" : ["mangas", "HP Lovecraft"]}            
+            {"type": "Permis", "value" : true},
+            {"type": "Cinéma", "value": ["horreur", "comédie US", "documentaire", "animé japonais"]},
+            {"type": "Jeux vidéos", "value": ["rpg", "action/aventure"]},
+            {"type": "Lecture", "value" : ["mangas", "HP Lovecraft"]}            
     ]
     
 }

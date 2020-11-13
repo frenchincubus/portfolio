@@ -22,7 +22,7 @@ export default function Home() {
               <p>Bienvenue sur mon Portfolio !</p>
               <p>Je me prénomme Lionel, en reconversion professionnelle, et je viens de terminer une formation de <u>concepteur-développeur d'applications</u>.</p>
               <p>Ce portfolio a pour fonction de vous présenter mon parcours et mes compétences.</p>
-              <p>J'ai toujours eu un attrait particulier pour les ordinateurs. Ayant développé mes premiers sites web durant mes années lycée (merci Dreamweaver), mon parcours professionnel varié a toujours été, par la suite, en contact de près ou de loin avec l'informatique.</p>
+              <p>J'ai toujours eu un attrait particulier pour les ordinateurs. Ayant développé mes premiers sites web durant mes années lycée (merci Dreamweaver), mon parcours professionnel varié a toujours été en contact de près ou de loin avec l'informatique.</p>
               <p>Bonne visite !!</p>
               </div>
             </Col>
