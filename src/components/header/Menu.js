@@ -35,10 +35,9 @@ const Menu = () => {
             <NavItem>
                 <Switch
                     id="Switch-11"
-                    offLabel=" Landing mode: Off"
+                    offLabel=" One Page: Off"
                     onChange={handleLanding}
                     onLabel="On"
-                    checked={landing}
                 />
             </NavItem>            
         </Navbar>

@@ -6,7 +6,7 @@ import PortolioFooter from "./components/footer/Footer";
 import CookieConsent from "react-cookie-consent";
 
 export default function App() {
-    const [landing, setLanding] = useState(true);
+    const [landing, setLanding] = useState(false);
 
     const contextValue = {
         landing,
