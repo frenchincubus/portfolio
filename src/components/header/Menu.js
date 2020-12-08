@@ -29,9 +29,9 @@ const Menu = () => {
             }}
             >
             <NavItem className="waves-effect waves-light sidenav-close" href={landing ?"#top" : "/"}>Home</NavItem>
-            <NavItem className="waves-effect waves-light sidenav-close" href={landing ?"#about" : "about"}>C.V</NavItem>
-            <NavItem className="waves-effect waves-light sidenav-close" href={landing ? "#works" : "works"}>Portfolio</NavItem>
-            <NavItem className="waves-effect waves-light sidenav-close" href={landing ? "#contact" :"contact"}>Contact</NavItem>
+            <NavItem className="waves-effect waves-light sidenav-close" href={landing ?"#about" : "/about"}>C.V</NavItem>
+            <NavItem className="waves-effect waves-light sidenav-close" href={landing ? "#works" : "/works"}>Portfolio</NavItem>
+            <NavItem className="waves-effect waves-light sidenav-close" href={landing ? "#contact" :"/contact"}>Contact</NavItem>
             <NavItem>
                 <Switch
                     id="Switch-11"

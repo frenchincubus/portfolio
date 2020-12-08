@@ -14,7 +14,7 @@ const Main = () => {
     const contextValue = useContext(LandingContext);
 
     if (contextValue.landing){
-        return <div id="top" className="main" style={{width: "100%"}}>
+        return <div id="top" className="main">
             <Home/>
             <AboutMe />
             <Works />
@@ -30,7 +30,7 @@ const Main = () => {
                 />
         </div>;
     } else {
-    return  <div className="main" style={{width: "100%"}}>
+    return  <div className="main">
             <Router history={histoire}>
                 <Route exact path="/" component={Home}/>
                 <Route path="/about" component={AboutMe}/>

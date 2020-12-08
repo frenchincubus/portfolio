@@ -1,7 +1,8 @@
 import React from "react";
 import { Button, Modal } from "react-materialize";
 import ReactHtmlParser from "react-html-parser";
-import data from "../data/me.json";
+import { aboutme } from "../data/me";
+import { imgStyles, pStyle, blockStyle, otherStyle, experienceButton } from '../styles/styles';
 
 /**
  *  me.json format
@@ -43,19 +44,9 @@ import data from "../data/me.json";
 }
  */
 
-const imgStyles = {
-    height : "100px",
-    marginRight: "5%",
-    marginBottom: "3%"
-};
-
-const pStyle = {
-  fontSize: "1.3em"
-};
-
 export const Formation = () => {
-     let cards = (data.formation).map((element, index) => (
-         <div className="row" key={index} style={{borderBottom: "1px solid black"}}>
+     let cards = (aboutme.formation).map((element, index) => (
+         <div className="row" key={index} style={blockStyle}>
          <div className="col s12 m8 l8">
            <div>
              <div >
@@ -70,8 +61,8 @@ export const Formation = () => {
 };
 
 export const Experience = () => (
-    (data.experiences).map((element, index) => (
-         <div className="row" key={index} style={{borderBottom: "1px solid black"}}>
+    (aboutme.experiences).map((element, index) => (
+         <div className="row" key={index} style={blockStyle}>
          <div className="col s12 m8 l8">
            <div>
              <div>
@@ -108,7 +99,7 @@ export const Experience = () => (
                      node="button"
                       className="btn pulse"
                       tooltip="En savoir plus"
-                      style={{ float: "right", backgroundColor: "#039be5 ", right: "2%", marginTop: "2%"}}
+                      style={experienceButton}
                       >détails</Button>}
                 >
                 <div>
@@ -120,34 +111,34 @@ export const Experience = () => (
 );
 
 export const Competences = () => (
-    <div  className="row" style={{ borderBottom: "1px solid black"}}>
+    <div  className="row" style={blockStyle}>
        <div className="col s12 m8 l8 center-align">           
-              {(data.skills.languages).map( (lang, index) => (
-                  lang.img && lang.level >= 3 ? <span key={index}><img src={"assets/icons/"+lang.img} style={imgStyles} alt={lang.language} /></span> : "" 
+              {(aboutme.skills.languages).map( (lang, index) => (
+                  lang.img && lang.level >= 3 ? <span key={index}><img src={lang.img} style={imgStyles} alt={lang.language} /></span> : "" 
               ))}           
       </div>
     </div>
 );
 
 export const CompetencesOthers = () => (
-    <div style={{ float: "inherit", borderBottom: "1px solid black"}}>
-    {(data.skills.languages).map( (lang, index) => (
-        lang.level < 3 ? <span key={index} style={{ margin: "1%", fontWeight: "bold"}}>{lang.language}</span> : "" 
+    <div style={{ float: "inherit"}, blockStyle}>
+    {(aboutme.skills.languages).map( (lang, index) => (
+        lang.level < 3 ? <span key={index} style={otherStyle}>{lang.language}</span> : "" 
     ))}
     </div>
 );
 
 export const CompetencesTools = () => (    
-        <div style={{ borderBottom: "1px solid black"}}>
-            {(data.skills.tools).map( (lang, index) => (          
-                lang.img ? <span key={index}><img src={"assets/icons/"+lang.img} style={imgStyles} alt={lang.language} /></span> : ""    
+        <div style={blockStyle}>
+            {(aboutme.skills.tools).map( (lang, index) => (          
+                lang.img ? <span key={index}><img src={lang.img} style={imgStyles} alt={lang.language} /></span> : ""    
         ))}
         </div>
 );
 
 export const Divers = () => (
      <div style={pStyle}>
-    {(data.divers).map( (hobby, index) => (
+    {(aboutme.divers).map( (hobby, index) => (
         <p key={index} ><u>{hobby.type}</u>: {Array.isArray(hobby.value) ? hobby.value.join(", ") : typeof hobby.value === "boolean" ? "permis B + véhicule" : "non"}</p>
     ))}
 </div>

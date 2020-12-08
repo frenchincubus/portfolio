@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@500&display=swap");
+
+$font1: "Oswald", sans-serif;
+$font2: "Open Sans", sans-serif;
+$bckgrdcolor: #47191b;
+
+body {
+  font-family: $font1;
+  font-weight: lighter;
+}
+
+div {
+  font-family: $font1;
+}
+
+p {
+  font-family: $font2;
+}
+
+a {
+  font-family: $font2;
+  color: maroon;
+}
+
+h1 + h4 + .brand-logo {
+  font-family: $font1;
+}
+
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  main {
+    flex: 1 0 auto;
+  }
+}
+
+.page-footer {
+  background-color: $bckgrdcolor;
+  padding-top: 0;
+  a {
+    font-family: $font2;
+    color: cadetblue;
+  }
+}
+
+.page-footer > div > .row {
+  margin-bottom: 0;
+}
+
+.footer-copyright > div {
+  padding-left: 8px;
+}
+
+nav {
+  background-color: $bckgrdcolor;
+}
+
+@media screen and (min-width: 993px) {
+  .brand-logo {
+    margin-left: 10px;
+  }
+}
+
+#about, #works, #contact { 
+  background-color: $bckgrdcolor;
+  padding: 5px 10px 0 0;
+ }
+
+ .content-block { 
+  background-color: whitesmoke;
+   border-radius: 5px; 
+   box-shadow: 10px 5px 5px grey;
+   padding: 2%;
+}
+
+// portfolio section
+
+.portfolio-row {
+  border-bottom: 1px solid black;
+}
+
+.portfolio-container {
+  padding-top: 10px;
+}
+
+.portfolio-block-title {
+  display: inline;
+  h5 {
+    display: inline-block;
+  }
+}
+
+.portfolio-text {
+  text-align: justify;
+}
+
+// main section
+
+div.main {
+  width: 100%;
+}
+
+// home section
+
+.presentation {
+  font-size: 1.3em;
+  text-align: justify;
+}
+
+.home-contact{
+  height: 70vh;
+  top: 200px;
+}
+
+// contact section
+
+.contact-img {
+  display: inline-flex;
+  max-width: 260px;
+}
+
+.contact-pres {
+  font-size: 1.4em;
+}
+
